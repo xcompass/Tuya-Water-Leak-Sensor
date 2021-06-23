@@ -30,7 +30,8 @@ After that, MCU cuts down ESP power and looks for the next event.
 
 All that takes like 3-5 seconds.
 
-Use Tx Rx GND VMO(+3V) and GPIO0 to GND to flash Tasmota.
+Use Tx Rx GND VMO(+3V) and GPIO0 to GND to flash Tasmota. This can be done by temporally pushing header pins to the connectors on the PCB as shown in the photo below:
+![Header Pins for Flashing](/20210622_231837.jpg?raw=true)
 
 From now on, every single change in Tasmota should be done by quickly, with your fingers wet, touch the water leak tips. Or pull VM0 to 3v to prevent the MCU cutting ESP power.
 
